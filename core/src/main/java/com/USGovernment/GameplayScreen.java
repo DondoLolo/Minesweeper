@@ -48,7 +48,8 @@ public class GameplayScreen implements Screen {
         shapeRenderer = new ShapeRenderer();
         shapeRenderer.setAutoShapeType(true); //???, I just know that this was the solution to an annoying problem
 
-        board = new GameBoard(this);
+        board = new GameBoard(this,10,10,7);
+
     }
 
     public void clearScreen() {
